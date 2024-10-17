@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #fca311;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.container {
+    max-width: 1500px;
+}
+
+::-webkit-scrollbar {
+    width: 0.2rem; 
+}
+
+::-webkit-scrollbar-track {
+    background: var(--black); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--yellow);
+    border-radius: 6px; 
+}
+
+/* -------- Portfolio-sec start -------- */
+.portfolio-sec{
+    height: 100vh;
+    background-color: var(--black);
+}
+.portfolio-wrapper{
+    display: flex;
+}
+.left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+}
+.right-part{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-block: 3rem;
+    width: 70%;
+}
+.profile-image{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+}
+.nav-link {
+    width: 15rem;
+    border: 1px solid var(--yellow);
+    color: var(--white);
+    transition: 0.4s;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: var(--yellow);
+}
+.nav-link:focus, .nav-link:hover{
+    color: var(--yellow);
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+.left-icons{
+    display: flex;
+    gap: 0.5rem;
+}
+.left-icons i{
+    font-size: 1.1rem;
+    color: var(--white);
+}
+.left-skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white);
+    margin-top: 1rem;
+}
+.left-skills h3{
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+.all-skills, .all-tools{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.all-skills:last-child, .all-tools:last-child{
+    margin-bottom: 0;
+}
+.all-skills h4, .all-tools h4{
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.tab-content{
+    position: relative;
+    border-top: 1px solid var(--yellow);
+    border-right: 1px solid var(--yellow);
+    height: calc(100vh - 155px);
+    overflow-y: scroll;
+    padding: 1rem 0 0 2rem;
+}
+.portfolio-tab-wrapper{
+    position: relative;
+    width: 100%;
+}
+.portfolio-tab-wrapper::before{
+    content: "";
+    top: 40px;
+    left: 0;
+    width: 1px;
+    height: 18px;
+    background-color: var(--yellow);
+    position: absolute;
+}
+.troble{
+    display: flex;
+    align-items: start;
+}
+.top-line{
+    width: 3rem;
+    height: 1px;
+    position: relative;
+    background-color: var(--white);
+    top: 0.8rem;
+}
+.top-line::before{
+    content: "";
+    left: -5px;
+    top: -3px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+.circle-image{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    z-index: 1;
+}
+.horizontal-line{
+    width: 1px;
+    height: 4rem;
+    position: relative;
+    top: 0.9rem;
+    left: -0.8rem;
+    background-color: var(--white);
+}
+.horizontal-line::before{
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    background-color: var(--white);
+}
+/* -------- Portfolio-sec end -------- */
