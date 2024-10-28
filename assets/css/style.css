@@ -11,7 +11,7 @@ html {
 :root {
     --white: #ffffff;
     --black: #000000;
-    --yellow: #fca311;
+    --green: #50C878;
 }
 h1,
 h2,
@@ -41,7 +41,7 @@ img{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--yellow);
+    background: var(--green);
     border-radius: 6px; 
 }
 
@@ -78,16 +78,16 @@ img{
 }
 .nav-link {
     width: 15rem;
-    border: 1px solid var(--yellow);
+    border: 1px solid var(--green);
     color: var(--white);
     transition: 0.4s;
     background-color: transparent;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: var(--yellow);
+    background-color: var(--green);
 }
 .nav-link:focus, .nav-link:hover{
-    color: var(--yellow);
+    color: var(--green);
 }
 .nav-pills .nav-link{
     border-radius: 0;
@@ -127,8 +127,8 @@ img{
 }
 .tab-content{
     position: relative;
-    border-top: 1px solid var(--yellow);
-    border-right: 1px solid var(--yellow);
+    border-top: 1px solid var(--green);
+    border-right: 1px solid var(--green);
     height: calc(100vh - 155px);
     overflow-y: scroll;
     padding: 1rem 0 0 2rem;
@@ -143,26 +143,25 @@ img{
     left: 0;
     width: 1px;
     height: 18px;
-    background-color: var(--yellow);
+    background-color: var(--green);
     position: absolute;
 }
 .troble{
     display: flex;
-    align-items: start;
+    align-items: center;
 }
 .top-line{
     width: 3rem;
     height: 1px;
     position: relative;
     background-color: var(--white);
-    top: 0.8rem;
 }
 .top-line::before{
     content: "";
     left: -5px;
     top: -3px;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     position: absolute;
     border-radius: 50%;
     background-color: var(--white);
@@ -174,24 +173,58 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    border: 1px solid white;
     z-index: 1;
 }
-.horizontal-line{
-    width: 1px;
-    height: 4rem;
-    position: relative;
-    top: 0.9rem;
-    left: -0.8rem;
-    background-color: var(--white);
+.troble-type .single-troble-type{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-left: 5.7rem;
+    margin-top: 1rem;
+    border-left: 1px solid white;
+    padding-left: 0.7rem;
 }
-.horizontal-line::before{
-    content: "";
-    left: 0;
-    bottom: 0;
-    width: 80px;
-    height: 1px;
-    position: absolute;
-    background-color: var(--white);
+.troble h2{
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-left: 1rem;
+}
+.troble-type h3, .troble-type h4{
+    font-size: 1rem;
+    color: var(--white);
+}
+.troble h2 i{
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--green);
+}
+.wrapper-troble{
+    margin-bottom: 1rem;
+}
+.wrapper-troble:last-child{
+    margin-bottom: 0;
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.show {
+    display: block;
+}
+.project-img{
+    width: 15rem;
+    border-radius: 0.9rem;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    transition: 0.5s;
+    border: 2px solid var(--white);
+}
+.project-img-wrapper h3 i{
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--green);
+}
+.project-img:hover{
+    border: 2px solid var(--green);
 }
 /* -------- Portfolio-sec end -------- */

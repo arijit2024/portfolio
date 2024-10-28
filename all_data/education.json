@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "schoolName": "abc",
+        "schoolUrl": "kjha.com",
+        "TotalSchoolYears": "10years"
+    },
+    {
+        "id": "2",
+        "schoolName": "cnd",
+        "schoolUrl": "",
+        "TotalSchoolYears": "10years"
+    },
+    {
+        "id": "3",
+        "schoolName": "c3nd",
+        "schoolUrl": "kjha.com",
+        "TotalSchoolYears": "10years"
+    }
+]
