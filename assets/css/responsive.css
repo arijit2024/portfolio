@@ -1,0 +1,56 @@
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1199.98px) {
+    .nav-link {
+        width: 14rem;
+    }
+ }
+ @media (max-width: 991.98px) {
+    .nav-item{
+        width: 100%;
+    }
+    .nav-pills .nav-link, .nav-pills .show>.nav-link{
+        width: 100%;
+    }
+    .portfolio-tab-wrapper::before {
+        top: 126px;
+    }
+    .tab-content {
+        height: calc(100vh - 200px);
+    }
+    .right-part {
+        padding-block: 1.5rem;
+    }
+    .profile-image {
+        width: 10rem;
+        height: 10rem;
+    }
+    .left-part {
+        justify-content: start;
+        padding: 1.5rem 0;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .portfolio-wrapper {
+        flex-direction: column;
+    }
+    .left-part {
+        width: 100%;
+        height: 100%;
+    }
+    .right-part {
+        width: 100%;
+    }
+    .portfolio-sec {
+        height: 100%;
+    }
+    .tab-content {
+        height: 100%;
+        padding: 1.5rem 0.4rem 0.4rem 0.4rem;
+    }
+   }
+@media (max-width: 575.98px) {
+    .troble-type .single-troble-type {
+        margin-left: 0.7rem;
+    }
+ }

@@ -119,3 +119,12 @@ $(document).ready(function(){
         }
     })
 })
+document.querySelectorAll('input[name="tabs"]').forEach((radio) => {
+    radio.addEventListener('change', () => {
+        const targetId = radio.id.replace('-tab', ''); // Get the corresponding tab ID
+        document.querySelectorAll('.tab-pane').forEach((tab) => {
+            tab.classList.remove('show', 'active'); // Hide all tabs
+        });
+        document.getElementById(targetId).classList.add('show', 'active'); // Show the selected tab
+    });
+});
