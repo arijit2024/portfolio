@@ -38,7 +38,7 @@ $(document).ready(function() {
                     $('#experience .wrapper-troble:last .troble-type').append(
                         '<div class="single-troble-type">\
                             <h3>' + role.roleName + '</h3>\
-                            <h4>' + role.totalYear + '</h4>\
+                            <h4>' + role.totalYear + " ( " + value.totalExperience + " ) " +'</h4>\
                         </div>'
                     );
                 });
@@ -66,12 +66,12 @@ $(document).ready(function() {
                         <div class="troble">\
                             <div class="top-line"></div>\
                             <div class="circle-image"><img></div>\
-                            <h2>'+value.schoolName+ (!value.schoolUrl ? '' : ' <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>')+'</h2>\
+                            <h2>'+value.schoolName+ (!value.schoolUrl ? '' : ' <a href="'+value.schoolUrl+'" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>')+'</h2>\
                         </div>\
                         <div class="troble-type">\
                         <div class="single-troble-type">\
-                            <h3>afsksvk</h3>\
-                            <h4>2023</h4>\
+                            <h3>'+value.stream+'</h3>\
+                            <h4>'+value.TotalSchoolYears+'</h4>\
                         </div>\
                         </div>\
                     </div>'

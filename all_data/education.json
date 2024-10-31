@@ -1,20 +1,25 @@
 [
     {
-        "id": "1",
-        "schoolName": "abc",
-        "schoolUrl": "kjha.com",
-        "TotalSchoolYears": "10years"
+        "schoolName": "Aptech Learning",
+        "schoolUrl": "https://www.aptechkolkata.com/",
+        "stream":"Development Courses",
+        "TotalSchoolYears": "2022 - 2023"
+    },{
+        "schoolName": "Dumkal Institute of Engineering and Technology",
+        "schoolUrl": "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TLdIy7UsM083YPTSSSnNzU7MUcjMKy7JLCktSVXIT1NIzUvPzEtNLcrMS1dQUyhJTc7Iy8_JT68EAHSDFW4&q=dumkal+institute+of+engineering+%26+technology&rlz=1C1ONGR_enIN1108IN1108&oq=damkal&gs_lcrp=EgZjaHJvbWUqCQgEEC4YChiABDIGCAAQRRg5MgcIARAuGIAEMgkIAhAAGAoYgAQyBwgDEAAYgAQyCQgEEC4YChiABDIJCAUQLhgKGIAEMgcIBhAAGIAEMgcIBxAAGIAEMg0ICBAuGK8BGMcBGIAEMgoICRAAGIsDGIAE0gEINjAyNmoxajmoAgCwAgA&sourceid=chrome&ie=UTF-8",
+        "stream":"BTechBachelor of Technology - BTech ( Mechanical Engineering )",
+        "TotalSchoolYears": "2020 - 2023"
     },
     {
-        "id": "2",
-        "schoolName": "cnd",
-        "schoolUrl": "",
-        "TotalSchoolYears": "10years"
+        "schoolName": "Baruipur Government Polytechnic",
+        "schoolUrl": "https://polytechnic.wbtetsd.gov.in/baruipurgovpoly",
+        "stream":"Mechanical Engineering",
+        "TotalSchoolYears": "2017 - 2020"
     },
     {
-        "id": "3",
-        "schoolName": "c3nd",
-        "schoolUrl": "kjha.com",
-        "TotalSchoolYears": "10years"
+        "schoolName": "Thakurnagar High School",
+        "schoolUrl": "https://www.google.com/search?q=thakurnagar+high+school&rlz=1C1ONGR_enIN1108IN1108&oq=thakurnagar+high+school&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIQCAEQLhivARjHARiABBiOBTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yDQgFEAAYhgMYgAQYigUyCggGEAAYgAQYogQyCggHEAAYgAQYogQyCggIEAAYgAQYogQyCggJEAAYgAQYogTSAQg1ODIyajFqN6gCCLACAQ&sourceid=chrome&ie=UTF-8",
+        "stream":"5th - 12th",
+        "TotalSchoolYears": "7Years"
     }
 ]

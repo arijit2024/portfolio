@@ -1,9 +1,20 @@
 [
     {
         "id": "1",
-        "companyName": "abc",
+        "companyName": "99Graphics Design Pvt.Ltd",
+        "totalExperience": "4 Month",
+        "companyUrl": "https://99graphicsdesign.com/",
+        "role": [
+            {
+                "roleName": "Frontend Developer · Full-time",
+                "totalYear": "Jul 2024 - Present"
+            }
+        ]
+    },
+    {
+        "companyName": "Webfeed",
         "totalExperience": "10years",
-        "companyUrl": "abc.com",
+        "companyUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "role": [
             {
                 "roleName": "intern",
@@ -16,30 +27,13 @@
         ]
     },
     {
-        "id": "2",
-        "companyName": "def",
-        "totalExperience": "10years",
+        "companyName": "Dasgupta Overseas Private Limited",
+        "totalExperience": "2 Month",
         "companyUrl": "",
         "role": [
             {
-                "roleName": "intern",
-                "totalYear": "12years"
-            },
-            {
-                "roleName": "intern2",
-                "totalYear": "14years"
-            }
-        ]
-    },
-    {
-        "id": "3",
-        "companyName": "xyz",
-        "totalExperience": "10years",
-        "companyUrl": "abc.com",
-        "role": [
-            {
-                "roleName": "intern",
-                "totalYear": "12years"
+                "roleName": "Web Developer · Internship",
+                "totalYear": "Jan 2023 - Feb 2023"
             }
         ]
     }
