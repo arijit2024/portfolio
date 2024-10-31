@@ -38,7 +38,7 @@ $(document).ready(function() {
                     $('#experience .wrapper-troble:last .troble-type').append(
                         '<div class="single-troble-type">\
                             <h3>' + role.roleName + '</h3>\
-                            <h4>' + role.totalYear + " ( " + value.totalExperience + " ) " +'</h4>\
+                            <h4>' + role.totalYear + '</h4>\
                         </div>'
                     );
                 });
