@@ -1,28 +1,27 @@
 [
     {
-        "id": "1",
         "companyName": "99Graphics Design Pvt.Ltd",
         "totalExperience": "4 Month",
         "companyUrl": "https://99graphicsdesign.com/",
         "role": [
             {
                 "roleName": "Frontend Developer · Full-time",
-                "totalYear": "Jul 2024 - Present"
+                "totalYear": "1st Jul 2024 - Present"
             }
         ]
     },
     {
         "companyName": "Webfeed",
-        "totalExperience": "1 Year 2 Month",
+        "totalExperience": "1 Year 3 Month",
         "companyUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "role": [
             {
                 "roleName": "Web Developer · Full Time",
-                "totalYear": "."
+                "totalYear": "21st September 2023 - 27th June 2024"
             },
             {
                 "roleName": "Web Developer · Internship",
-                "totalYear": "."
+                "totalYear": "21st March 2023 - 20th September 2023"
             }
         ]
     },
