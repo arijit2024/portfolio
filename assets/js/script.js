@@ -104,7 +104,7 @@ $(document).ready(function(){
                   $.each(value.project, function(i, proDts){
                      projectHTML += '<div class="single-troble-type">\
                                         <div class="project-img-wrapper">\
-                                            <h3>'+proDts.projectLinkText+ (!proDts.projectUrl ? '' : ' <a href='+proDts.projectUrl+'> <i class="fa-solid fa-up-right-from-square"></i></a>' ) +'</h3>\
+                                            <h3>'+proDts.projectLinkText+ (!proDts.projectUrl ? '' : ' <a href='+proDts.projectUrl+' target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a>' ) +'</h3>\
                                             <div class="project-img">\
                                                 <a href="'+proDts.projectUrl+'" target="_blank">\
                                                     <img src="./assets/images/'+proDts.projectImage+'">\
