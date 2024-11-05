@@ -1,5 +1,18 @@
 [
     {
+        "type": "Office project ( 99Graphics Design Private Limited )",
+        "typeUrl": "https://99graphicsdesign.com/",
+        "project": [
+            {
+                "projectName": "",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "",
+                "projectImage" : "",
+                "content": ""
+            }
+        ]
+    },
+    {
         "type": "Office project ( Webfeed Solutions Private Limited )",
         "typeUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "project": [
