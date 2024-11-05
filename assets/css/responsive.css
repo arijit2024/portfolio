@@ -13,7 +13,7 @@
         width: 100%;
     }
     .portfolio-tab-wrapper::before {
-        top: 126px;
+        top: 123px;
     }
     .tab-content {
         height: calc(100vh - 200px);
