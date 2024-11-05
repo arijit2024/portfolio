@@ -1,20 +1,14 @@
 [
     {
-        "id": "1",
-        "type": "Webfeed",
+        "type": "Office project ( Webfeed Solutions Private Limited )",
         "typeUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "project": [
             {
                 "projectName": "Fresh Grocery Mart",
-                "projectLinkText" : "Project link",
+                "projectLinkText" : "( 2023 ) Go link",
                 "projectUrl": "https://freshgrocerymart.in/",
-                "projectImage" : "project1.png"
-            },
-            {
-                "projectName": "sss2",
-                "projectLinkText" : "Project link",
-                "projectUrl": "cs.com",
-                "projectImage" : "imgOne.jpg"
+                "projectImage" : "project1.png",
+                "content": "This is a grocery store website, and my role in this project is as a full-stack developer, handling both frontend and backend."
             }
         ]
     }

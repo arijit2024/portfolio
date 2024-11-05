@@ -97,7 +97,7 @@ $(document).ready(function(){
                                         <div class="troble">\
                                             <div class="top-line"></div>\
                                             <div class="circle-image"><img></div>\
-                                            <h2> '+value.type+ (!value.typeUrl ? '' : ' <a href='+value.typeUrl+' target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>') + '</h2>\
+                                            <h2> '+value.type+ (!value.typeUrl ? '<a href='+value.typeUrl+' target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>' : '') + '</h2>\
                                         </div>\
                                     <div class="troble-type">'
                         
@@ -109,8 +109,9 @@ $(document).ready(function(){
                                                 <a href="'+proDts.projectUrl+'" target="_blank">\
                                                     <img src="./assets/images/'+proDts.projectImage+'">\
                                                 </a>\
+                                                </div>\
                                             </div>\
-                                        </div>\
+                                            <p>'+proDts.content+'</p>\
                                     </div>'
                   })      
                   projectHTML += '</div>';  

@@ -231,4 +231,8 @@ img{
     margin-bottom: 0.4rem;
     color: var(--white);
 }
+.troble-type p{
+    margin-bottom: 0;
+    color: var(--white);
+}
 /* -------- Portfolio-sec end -------- */
