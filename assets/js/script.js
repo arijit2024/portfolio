@@ -29,7 +29,7 @@ $(document).ready(function() {
                         <div class="troble">\
                             <div class="top-line"></div>\
                             <div class="circle-image"><img></div>\
-                            <h2>' + value.companyName + (!value.companyUrl ? '' : ' <a href="#" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>') +'</h2>\
+                            <h2>' + value.companyName + (!value.companyUrl ? '' : ' <a href="'+value.companyUrl+'" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>') +'</h2>\
                         </div>\
                         <div class="troble-type">'
                 );
