@@ -135,3 +135,11 @@ document.querySelectorAll('input[name="tabs"]').forEach((radio) => {
         document.getElementById(targetId).classList.add('show', 'active'); // Show the selected tab
     });
 });
+
+
+// Preloader
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        document.body.classList.add('loaded');
+    }, 3000); 
+});
