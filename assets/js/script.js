@@ -27,8 +27,10 @@ $(document).ready(function() {
                 $('#experience').append(
                     '<div class="wrapper-troble">\
                         <div class="troble">\
+                            <div class="left-line">\
                             <div class="top-line"></div>\
                             <div class="circle-image"><img></div>\
+                            </div>\
                             <h2>' + value.companyName + (!value.companyUrl ? '' : ' <a href="'+value.companyUrl+'" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>') +'</h2>\
                         </div>\
                         <div class="troble-type">'
@@ -64,8 +66,10 @@ $(document).ready(function() {
                 $('#education').append(
                     '<div class="wrapper-troble">\
                         <div class="troble">\
+                            <div class="left-line">\
                             <div class="top-line"></div>\
                             <div class="circle-image"><img></div>\
+                            </div>\
                             <h2>'+value.schoolName+ (!value.schoolUrl ? '' : ' <a href="'+value.schoolUrl+'" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>')+'</h2>\
                         </div>\
                         <div class="troble-type">\
@@ -95,8 +99,10 @@ $(document).ready(function(){
             $.each(data, function(key, value){
                  let projectHTML = '<div class="wrapper-troble">\
                                         <div class="troble">\
+                                            <div class="left-line">\
                                             <div class="top-line"></div>\
                                             <div class="circle-image"><img></div>\
+                                            </div>\
                                             <h2> '+value.type+ (!value.typeUrl ? '<a href='+value.typeUrl+' target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>' : '') + '</h2>\
                                         </div>\
                                     <div class="troble-type">'

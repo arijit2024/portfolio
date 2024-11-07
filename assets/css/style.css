@@ -235,4 +235,10 @@ img{
     margin-bottom: 0;
     color: var(--white);
 }
+.left-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+}
 /* -------- Portfolio-sec end -------- */
