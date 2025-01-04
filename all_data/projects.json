@@ -1,18 +1,5 @@
 [
     {
-        "type": "Own project - 1 ( Web )",
-        "typeUrl": "m",
-        "project": [
-            {
-                "projectName": "",
-                "projectLinkText" : "( 2024 ) Go link",
-                "projectUrl": "",
-                "projectImage" : "",
-                "content": ""
-            }
-        ]
-    },
-    {
         "type": "Office project ( Webfeed Solutions Private Limited )",
         "typeUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "project": [
