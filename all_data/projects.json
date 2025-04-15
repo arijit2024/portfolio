@@ -4,12 +4,75 @@
         "typeUrl": "https://www.linkedin.com/company/webfeedsocial/posts/?feedView=all",
         "project": [
             {
+                "projectName": "Vvimpexworld",
+                "projectLinkText" : "( 2025 ) Go link",
+                "projectUrl": "https://vvimpexworld.com/",
+                "projectImage" : "project10.png",
+                "content": ""
+            },
+            {
+                "projectName": "Alwayssuperb",
+                "projectLinkText" : "( 2025 ) Go link",
+                "projectUrl": "https://www.alwayssuperb.net/",
+                "projectImage" : "project9.png",
+                "content": ""
+            },
+            {
+                "projectName": "Universell Pos",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://universellpos.com/",
+                "projectImage" : "project8.png",
+                "content": ""
+            },
+            {
+                "projectName": "Medpartygames",
+                "projectLinkText" : "( 2025 ) Go link",
+                "projectUrl": "https://medpartygames.com/",
+                "projectImage" : "project7.png",
+                "content": ""
+            },
+            {
+                "projectName": "Sreemagroup",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://sreemagroup.com/",
+                "projectImage" : "project6.png",
+                "content": ""
+            },
+            {
+                "projectName": "Piggybank Pos",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://piggybankpos.com/",
+                "projectImage" : "project5.png",
+                "content": ""
+            },
+            {
+                "projectName": "Mbbsstudy",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://mbbsstudy.in/",
+                "projectImage" : "project4.png",
+                "content": ""
+            },
+            {
+                "projectName": "Transplex",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://transplex.in/",
+                "projectImage" : "project3.png",
+                "content": ""
+            },
+            {
+                "projectName": "Pareidolia",
+                "projectLinkText" : "( 2024 ) Go link",
+                "projectUrl": "https://pareidolia.in/",
+                "projectImage" : "project2.png",
+                "content": ""
+            },
+            {
                 "projectName": "Fresh Grocery Mart",
                 "projectLinkText" : "( 2023 ) Go link",
                 "projectUrl": "https://freshgrocerymart.in/",
                 "projectImage" : "project1.png",
-                "content": "This is a grocery store website, and my role in this project is as a full-stack developer, handling both frontend and backend."
-            }
+                "content": ""
+            }  
         ]
     }
 ]
