@@ -65,14 +65,7 @@
                 "projectUrl": "https://pareidolia.in/",
                 "projectImage" : "project2.png",
                 "content": ""
-            },
-            {
-                "projectName": "Fresh Grocery Mart",
-                "projectLinkText" : "( 2023 ) Go link",
-                "projectUrl": "https://freshgrocerymart.in/",
-                "projectImage" : "project1.png",
-                "content": ""
-            }  
+            } 
         ]
     }
 ]
